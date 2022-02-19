@@ -5536,7 +5536,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_IRFANBOT Botz_*',
+    footerText: '*_IRFANBOT_*',
     buttons: buttons,
     headerType: 1
 }
