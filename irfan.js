@@ -2756,7 +2756,7 @@ _ℒ⃝♏ MCC : 510_
 _ℒ⃝🌐 Platfrom : ${os.platform()}_
 _ℒ⃝📳 Mode : ${publik ? 'Public' : 'Self'}_
 _ℒ⃝☢️ Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-_ℒ⃝👨‍💻 Name Creator : Official Nanz_
+_ℒ⃝👨‍💻 Name Creator : IRFANFF9_
 
 *YOUTOBE IRFANBOT : https://youtube.com/channel/UCB2FsP3zAMlcfRz7iVs2D6A*
 
