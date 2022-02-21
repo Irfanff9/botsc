@@ -1504,6 +1504,37 @@ _⚙ ${prefix}sc_
  `
 sendButLocation(from, `${menu}`, "*© IRFANBOT*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},{buttonId:`sc`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Ohayoo ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` IRFANBOT `
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdreply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
 break
      
 
@@ -5536,7 +5567,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_IRFANBOT_*',
+    footerText: '*_IRFANBOT Botz_*',
     buttons: buttons,
     headerType: 1
 }
