@@ -1502,7 +1502,7 @@ _⚙ ${prefix}speed_
 
 _⚙ ${prefix}sc_
  `
-sendButLocation(from, `${menu}`, "*© IRFANBOT*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},{buttonId:`sc`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*© IRFANBOT*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`{prefix}owner`,buttonText:{displayText:'OWNER'},type:1},{buttonId:`{prefix}sc`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
